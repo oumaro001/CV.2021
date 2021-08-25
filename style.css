@@ -1,0 +1,267 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a#cRetour{
+    border-radius:3px;
+    padding:10px;
+    font-size:15px;
+    text-align:center;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.25);
+    position:fixed;
+    right:20px;
+    opacity:1;
+    z-index:99999;
+    transition:all ease-in 0.2s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    text-decoration: none;
+  }
+  a#cRetour:before{ content: "\25b2"; }
+  a#cRetour:hover{
+    background:rgba(0, 0, 0, 1);
+    transition:all ease-in 0.2s;
+  }
+  a#cRetour.cInvisible{
+    bottom:-35px;
+    opacity:0;
+    transition:all ease-in 0.5s;
+  }
+  
+  a#cRetour.cVisible{
+    bottom:20px;
+    opacity:1;
+  }
+a{
+
+    text-decoration: none !important;
+
+}
+
+body{
+
+    border: 4px solid lightskyblue;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+
+    border: 4px solid rgb(236, 78, 57);
+
+}
+
+#HeaderTitre{
+
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    border: 4px solid rgb(27, 65, 13);
+
+}
+
+#HeaderTitre >img:nth-child(2){
+
+    width: 120px;
+    height: 164px;
+    margin-top: 20px;
+    animation: Anime_Acceuil  4000ms infinite 900ms ;
+    transform: translateX(869px);
+   
+}
+
+#HeaderTitre> img:nth-child(3){
+
+    width: 120px;
+    height: 164px;
+    margin-top: 20px;
+    animation: Anime_Acceuil  4000ms infinite 1000ms;
+    transform: translateX(869px);
+   
+
+   
+}
+
+#HeaderTitre >img:nth-child(4){
+
+    width: 120px;
+    height: 134px;
+    margin-top: 50px;
+    animation: Anime_Acceuil  4000ms infinite 1500ms; 
+    transform: translateX(869px);
+   
+}
+@keyframes Anime_Acceuil {
+    
+        0%{
+
+            transform: translateX(600px);
+
+        }
+
+
+    
+        100%{
+
+            transform: translateX(-1000px);
+
+            
+        }
+}
+/*------MENU---------*/
+menu{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+ menu > ul{
+
+    display: flex;
+}
+
+li{
+
+    text-transform: none;
+    list-style-type: none !important;
+
+
+}
+
+menu > ul > li > a:hover{
+
+    border-bottom: lightskyblue 2px solid;
+    color: lightskyblue;
+}
+menu > ul > li > a {
+
+    color: black;
+    list-style: none !important;
+    text-decoration: none !important;
+    margin-left: 20px;
+
+}
+
+section{
+
+    border: 1px solid lightgrey;
+    background-color: rgb(241, 238, 238);
+    margin-top: 50px;
+}
+
+h1 {
+
+    margin-left: 10px;
+}
+
+/*--------------------*/
+
+figure{
+
+    border: 1px solid rgb(241, 238, 238);
+        background-color: lightgrey;
+}
+figcaption{
+
+        display: flex;
+        margin-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+figcaption > img{
+
+    width: 250px;
+}
+.text_figcaption{
+
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+figcaption a {
+
+    color: red;
+    border-bottom: dashed black;
+}
+
+figcaption a:hover {
+
+    color: rgb(66, 66, 250);
+    border-bottom: dashed red;
+}
+
+h2{
+
+    text-decoration: underline black;
+    color: brown;
+}
+h3{
+
+    text-decoration: underline rgb(71, 71, 255);
+    color: rgb(71, 71, 255);
+}
+
+
+.IMG_Compétence{
+
+    display: flex;
+    justify-content: center;
+}
+.IMG_Compétence > img{
+
+    width: 17rem;
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+.Block_autreConpétence{
+
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+
+    background-color: #D5D8DD;
+    border: 3px solid green;
+    margin-top: 30px;
+}
+
+footer p{
+
+    text-align: center ;
+}
+
+
+footer img{
+
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    
+}
+
+footer img:hover{
+
+    transform: scale(1.4);
+}
+
+footer a{
+
+    display: flex;
+    justify-content: center;
+}
+
+.BTN-CLIQUEZ{
+
+    display: none;
+}
