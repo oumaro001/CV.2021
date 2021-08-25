@@ -1,0 +1,134 @@
+@media screen and (max-width: 320px){
+
+    img{
+        display: none;
+    }
+
+    menu{
+
+        display: none;
+    }
+
+    #HeaderTitre > h1{
+
+        font-size: 3rem;
+    }
+
+    .IMG_Compétence{
+
+            width: 2rem;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 30px;
+    }
+
+    .IMG_Compétence > img{
+
+        width: 9rem;
+    }
+
+    figcaption{
+
+        margin-left: 0px;
+    }
+
+    .BTN-CLIQUEZ{
+
+        display: flex;
+        justify-content: center;
+         width: 18rem;
+         margin-bottom: 70px;
+         color: white;
+         
+     }
+    button{
+
+
+        width: 7rem;
+        height: 3rem;
+        color: white;
+        background-color: rgb(250, 67, 67);
+        margin-top: 20px;
+        
+        
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:321px) and (max-width: 800px){
+
+    img{
+        display: none;
+    }
+
+    menu{
+
+        display: none;
+    }
+
+    a#cRetour.cVisible {
+       display: none;
+        
+    }
+    .IMG_Compétence{
+
+        width: 18rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  
+
+    figcaption{
+
+        margin-left: 0px;
+    }
+
+    .BTN-CLIQUEZ{
+
+       display: flex;
+       justify-content: center;
+        width: 20rem;
+        margin-bottom: 70px;
+        color: white;
+        
+    }
+
+    button{
+
+        width: 15rem;
+        height: 3rem;
+        color: white;
+        background-color: rgb(250, 67, 67);
+        margin-top: 20px;
+        margin-left: auto;
+        
+    }
+
+    button:hover{
+
+        transform: scale(1.2);
+    }
+    
+}
+
+@media screen and (min-width: 801px) and (max-width: 950px) {
+
+    .IMG_Compétence > img{
+
+        width: 11rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 30px;
+}
+
+
+
+}
